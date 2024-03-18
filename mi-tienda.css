@@ -1,0 +1,30 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.b-gallery{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+}
+.b-gallery-frame{
+    width: 100%;
+    height: 100px;
+}
+.b-gallery-item{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.b-galleryimg{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.b-text{
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    color: #707072;
+}
