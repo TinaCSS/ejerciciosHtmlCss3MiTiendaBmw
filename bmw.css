@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 img{
     max-width: 100%;
@@ -20,7 +21,7 @@ img{
     margin: 0,10,0,10;
 }
 .u-text-color-white{
-    color: grey;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -29,9 +30,12 @@ img{
 }
 .b-box-slogan{
     display: block;
-    justify-content: flex-start;
-    align-content: flex-start;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
     margin: 30px;
+    margin-top: 300px;
+    padding: 50px;
 }
 .u-text-allcaps{
 text-transform: uppercase;
@@ -41,5 +45,21 @@ text-transform: uppercase;
     margin:10px;
 }
 .b-search-bar{
-    display: inline;
+    margin: 10px;
+    align-items: end;
+    display: flex;
+}
+.b-page{
+    background-image: url('https://cdn.topgear.es/sites/navi.axelspringer.es/public/media/image/2022/03/bmw-z8-2631515.jpg?tf=1200x'); 
+    background-size: cover; 
+    top:100px;
+}
+.b-button-show-more{
+    white-space: nowrap;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 14px 30px;
+    background: #0071e3;
+    color: white;
+    border: 1px solid transparent;
 }
