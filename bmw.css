@@ -8,8 +8,8 @@ img{
 .b-header-nav{
     padding: 50px;
     margin: 10px;
-    align-items: start;
     display: flex;
+    align-self: center;
 }
 .b-header-nav-elements{
     margin: 10px;
@@ -19,6 +19,7 @@ img{
     display: inline;
     list-style-type: none;
     margin: 0,10,0,10;
+    padding:20px;
 }
 .u-text-color-white{
     color: white;
@@ -62,4 +63,7 @@ text-transform: uppercase;
     background: #0071e3;
     color: white;
     border: 1px solid transparent;
+}
+.b-header-nav-search{
+    display: flex;
 }
