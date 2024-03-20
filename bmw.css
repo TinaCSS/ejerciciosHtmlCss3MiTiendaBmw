@@ -18,6 +18,8 @@ img{
 .b-header-nav-search{
     display: flex;
     flex-direction: row;
+    background-image: "https://cdn.topgear.es/sites/navi.axelspringer.es/public/media/image/2022/03/bmw-z8-2631515.jpg?tf=1200x";
+    width: 100%;
 }
 .b-header-left{
     display: flex;
