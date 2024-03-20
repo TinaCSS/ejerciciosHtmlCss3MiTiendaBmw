@@ -4,15 +4,29 @@ body{
 img{
     max-width: 100%;
 }
+h1{
+    margin: 39px 0px 0px 0px;
+}
+input {
+    border: none;
+    border-bottom: 1px solid black;
+  }
+li{
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+}
 .b-gallery{
     display: flex;
     flex-flow: column wrap;
     flex-direction: row;
     align-content: space-between;
+    margin: 0 50px 0 50px;
 }
 .b-gallery-frame{
     width: 90%;
-    height: 300px;
+    height: 200px;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -28,16 +42,18 @@ img{
     object-fit: cover;
 }
 .b-text{
-    font-size: 10px;
+    font-size: 8px;
     font-family: Helvetica, sans-serif;
     color: #707072;
     text-align: center;
+    font-weight: 600;
+    text-decoration: none;
 }
 .u-size-40px{
     font-size: 40px;
 }
 .u-size-20px{
-    font-size: 20px;
+    font-size: 15px;
 }
 .u-color-black{
     color: black;
@@ -49,20 +65,28 @@ img{
     text-align: center;
 }
 .b-header-search{
+    display: flex;
+    flex-direction: row;
     text-align: right;
+    position: absolute;
+    left: 75%;
+    top: 52px;
+    
 }
 .b-menu-aside{
     position: fixed;
-    left: 50px;
 	top: 50px;
 }
 .b-menu-aside-gender{
     list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
 }
 .u-text-menu-aside{
     font-weight: 600;
     text-decoration: none;
     color: black;
+    font-size: 12px;
 }
 .b-menu-aside-pages{
     list-style-type: none;
@@ -75,7 +99,7 @@ img{
     align-content: center;
 }
 .u-text-allcaps{
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 .u-text-bold{
     font-weight: 800;
@@ -92,4 +116,57 @@ img{
     top: 32px;
     right: 18px;
     align-items: center;
+}
+.b-form-cta{
+    text-align: center;
+}
+.b-header-path{
+    margin: 10px 0px 10px 0px;
+}
+.u-text-light{
+    font-weight: lighter;
+}
+.b-footer-padre{
+    display:flex;
+    margin: 10px 0px 10px 0px;
+}
+footer{
+    margin: 0% 10% 0% 10%;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.b-icon{
+    width: 20px;
+    height: 20px;
+}
+.b-header__right{
+    display: flex;
+    top: 32px;
+    right: 18px;
+    align-items: center;
+}
+.b-search{
+    position: relative;
+}
+
+.b-search__icon{
+    width: 0.85rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 6px;
+}
+
+.b-search__input{
+    border: 0;
+    border-bottom: 2px solid;
+    padding: 0.25rem 0.25rem 0.25rem 2rem 
 }

@@ -5,15 +5,31 @@ body{
 img{
     max-width: 100%;
 }
-.b-header-nav{
-    padding: 50px;
-    margin: 10px;
+.b-page{  
     display: flex;
-    align-self: center;
+    flex-direction: column;
+    position: relative;
+}
+.b-bmw-logo{
+    max-width: 5%;
+    position: relative;
+}
+/* HEADER*/
+.b-header-nav-search{
+    display: flex;
+    flex-direction: row;
+}
+.b-header-left{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    left: 10px;
+    justify-content: center;
 }
 .b-header-nav-elements{
     margin: 10px;
     display: inline;
+
 }
 .b-header-nav-list-element{
     display: inline;
@@ -21,40 +37,33 @@ img{
     margin: 0,10,0,10;
     padding:20px;
 }
-.u-text-color-white{
-    color: white;
+.b-header-right{
+    margin: 10px;
+    display: flex;
+    width:20%;
+    justify-content: space-evenly;
+}
+/* TEXT STYLE*/
+.u-text{
     text-decoration: none;
     font-weight: bold;
+    color: black;
 }
-.u-text-size-big{
+.color-white{
+    color: white;
+}
+.size-big{
     font-size: 30px;
 }
-.b-box-slogan{
-    display: block;
-    position: relative;
-    bottom: 0px;
-    left: 0px;
-    margin: 30px;
-    margin-top: 300px;
-    padding: 50px;
+.allcaps{
+    text-transform: uppercase;
 }
-.u-text-allcaps{
-text-transform: uppercase;
-}
-.b-text-block{
+.block{
     display: block;
     margin:10px;
 }
-.b-search-bar{
-    margin: 10px;
-    align-items: end;
-    display: flex;
-}
-.b-page{
-    background-image: url('https://cdn.topgear.es/sites/navi.axelspringer.es/public/media/image/2022/03/bmw-z8-2631515.jpg?tf=1200x'); 
-    background-size: cover; 
-    top:100px;
-}
+
+
 .b-button-show-more{
     white-space: nowrap;
     font-size: 10px;
@@ -64,6 +73,19 @@ text-transform: uppercase;
     color: white;
     border: 1px solid transparent;
 }
-.b-header-nav-search{
+.b-box-slogans{
+    position: relative;
+    bottom: 10px;
+    background-image: "https://cdn.topgear.es/sites/navi.axelspringer.es/public/media/image/2022/03/bmw-z8-2631515.jpg?tf=1200x";
+}
+
+/* GALLERY CARS */
+.b-gallery{
     display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+.b-gallery__item{
+    width: calc(25% - 20px);
+    margin: 10px;
 }
