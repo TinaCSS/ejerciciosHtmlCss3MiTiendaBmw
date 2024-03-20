@@ -1,93 +1,15 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-img{
-    max-width: 100%;
-}
-.b-page{  
+.header{
     display: flex;
-    flex-direction: column;
-    position: relative;
+    justify-content: space-between;
+    align-items: center;
 }
-.b-bmw-logo{
-    max-width: 5%;
-    position: relative;
-}
-/* HEADER*/
-.b-header-nav-search{
+.header__nav{
     display: flex;
     flex-direction: row;
-    background-image: "https://cdn.topgear.es/sites/navi.axelspringer.es/public/media/image/2022/03/bmw-z8-2631515.jpg?tf=1200x";
-    width: 100%;
 }
-.b-header-left{
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    left: 10px;
-    justify-content: center;
+.logo{
+    width: 45px;
 }
-.b-header-nav-elements{
-    margin: 10px;
-    display: inline;
-
-}
-.b-header-nav-list-element{
-    display: inline;
-    list-style-type: none;
-    margin: 0,10,0,10;
-    padding:20px;
-}
-.b-header-right{
-    margin: 10px;
-    display: flex;
-    width:20%;
-    justify-content: space-evenly;
-}
-/* TEXT STYLE*/
-.u-text{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-.color-white{
-    color: white;
-}
-.size-big{
-    font-size: 30px;
-}
-.allcaps{
-    text-transform: uppercase;
-}
-.block{
-    display: block;
-    margin:10px;
-}
-
-
-.b-button-show-more{
-    white-space: nowrap;
-    font-size: 10px;
-    font-weight: 400;
-    padding: 14px 30px;
-    background: #0071e3;
-    color: white;
-    border: 1px solid transparent;
-}
-.b-box-slogans{
-    position: relative;
-    bottom: 10px;
-    background-image: "https://cdn.topgear.es/sites/navi.axelspringer.es/public/media/image/2022/03/bmw-z8-2631515.jpg?tf=1200x";
-}
-
-/* GALLERY CARS */
-.b-gallery{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5%;
-}
-.b-gallery__item{
-    width: calc(25% - 20px);
-    margin: 10px;
+.main__section__one{
+    
 }
