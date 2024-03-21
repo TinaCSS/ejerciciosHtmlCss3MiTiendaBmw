@@ -1,15 +1,94 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+body {
+  font-family: Helvetica;
+  color:white;
+  text-decoration: none;
+  background-color: black;
 }
-.header__nav{
-    display: flex;
-    flex-direction: row;
+a{
+  text-decoration: none;
+  color: white;
 }
-.logo{
-    width: 45px;
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
 }
-.main__section__one{
-    
+
+.header__border__bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2%;
+  border-bottom: 1px solid rgb(187, 187, 187);
+  width: 90%;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+  a {
+    margin: 5%;
+  }
+  img {
+    height: 65px;
+  }
+}
+
+.header__nav__hijo{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  a{
+    font-size: small;
+  }
+}
+.main__section__one {
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 500px;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  background-image: url('https://cdn.topgear.es/sites/navi.axelspringer.es/public/media/image/2022/03/bmw-z8-2631515.jpg?tf=3840x'); /* URL de la imagen */
+  background-size: cover;
+}
+
+.main__section__one__bottom{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.main__section__father{
+  display: flex;
+  flex-direction: row;
+}
+
+.main__gallery__father{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main__gallery__hijo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main__gallery__grid{
+  margin: 2%;
+}
+
+.main__section__one__bottom__button{
+  width: fit-content;
+  padding: 2%;
 }
